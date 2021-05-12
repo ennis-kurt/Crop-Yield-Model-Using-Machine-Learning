@@ -37,14 +37,12 @@ data and get the State, Year and Value (Yield) columns for the selected states. 
 be used for analysis and manipulation. Data source: United States Department of Agriculture -
 National Agricultural Statistics Service.
 2. The data for the coordinates of the state boundaries. This data is used to select the region of interest 
-in the climate dataset. Geopandas and Salem packages are used for this data.3. Agro-climatic indicators, which include fundamental climate variables, such as temperature and rain, 
-and the ones that are derived from them such as biologically available degree days. This dataset is a 
-time series of 26 agro-climatic indicators with additional two spatial coordinates (see Figure 1). 
+in the climate dataset. Geopandas and Salem packages are used for this data.3. Agro-climatic indicators, which include fundamental climate variables, such as temperature and rain, and the ones that are derived from them such as biologically available degree days. This dataset is a time series of 26 agro-climatic indicators with additional two spatial coordinates (see Figure 1). 
 Xarray package with dask integration is used to analysis and manipulation. The entire dataset comes 
 as three separate files in netcdf format, with either dekadal (10 day), seasonal or annual aggregation 
 of certain variables. Dekadal data has a restrictive size to process on a regular home computer. 
 Hence the data is read in to 54 chunks. The goal is to 
-• annually aggregate all the indicators and merge them into a single xarray dataset, 
-• using the state boundaries data, get the spatial averages of each variables for selected states,
-• convert the final data to pandas dataframe,
-• merge the climate indicators and crop yield data into a single pandas dataframe
+* annually aggregate all the indicators and merge them into a single xarray dataset, 
+* using the state boundaries data, get the spatial averages of each variables for selected states,
+* convert the final data to pandas dataframe,
+* merge the climate indicators and crop yield data into a single pandas dataframe
