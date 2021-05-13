@@ -143,10 +143,10 @@ However, the final model still overfits as seen in the Figure 4.
 
 
 *Table 1 :* `Comparison of Regression Models`
-| model      | LassoAll | Lasso    | ElasticNet | Ridge    | SVM      |
-|------------|----------|----------|------------|----------|----------|
-| rmse_train | 0.891596 | 0.900989 | 0.884236   | 0.859036 | 0.869928 |
-| rmse_test  | 0.607274 | 0.612878 | 0.623816   | 0.674006 | 0.776770 |
+| model      | XGBoost  | LassoAll | Lasso    | ElasticNet | Ridge    | SVM      |
+|------------|----------|----------|----------|------------|----------|----------|
+| rmse_train | 0.012831 | 0.891596 | 0.900989 | 0.884236   | 0.859036 | 0.869796 |
+| rmse_test  | 0.469660 | 0.607274 | 0.612878 | 0.623816   | 0.674006 | 0.776484 |
 
 <table align = "center">
 <thead>
