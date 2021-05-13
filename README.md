@@ -46,3 +46,14 @@ Hence the data is read in to 54 chunks. The goal is to
 * using the state boundaries data, get the spatial averages of each variables for selected states,
 * convert the final data to pandas dataframe,
 * merge the climate indicators and crop yield data into a single pandas dataframe
+
+| ![climate_data_structure](Figures/climate_data_structure.png) |
+|:--:|
+| Figure 1. `An example of shape of each of 26 variables in dekadal climate data. Each variable has three dimensions: time (1080 steps), latitude (720 steps) and longitude (360 steps).` |
+
+| ![world](Figures/global_temp.png) | | ![states](Figures/soybens_states.png) |
+|:--:|
+| Figure 2. `A snapshot of the raw climate data on the left and the subset of it with selected U.S. states on the right. ` |
+
+
+
