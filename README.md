@@ -89,7 +89,7 @@ Despite these drawbacks, the benefits of creating panel data outweigh the downsi
 </thead>
 <tbody>
   <tr>
-      <td colspan="2"; align = "center"><b>Figure 3 :</b> An example of similarity between each state for climate variables. For this plot RR1 (Number of wet days)  is used. </td>
+      <td colspan="2"; align = "center"><b>Figure 3 :</b> An example of similarity between each state for climate variables. For this plot WW (warm and wet days)  is used. </td>
   </tr>
 </tbody>
 </table>
