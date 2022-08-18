@@ -177,7 +177,7 @@ After parametrization, the accuracy score for validation improved significantly.
 | Model               | Accuracy - Train Data | Accuracy - Test Data |
 |---------------------|-----------------------|----------------------|
 | Logistic Regression | 0.74                  | 0.40                 |
-| XGBoost Classifier  | 1.0                   | 0.70                 |
+| XGBoost Classifier  | 0.89                   | 0.70                 |
 
 ## Conclusion
 
